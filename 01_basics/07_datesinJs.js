@@ -19,6 +19,7 @@ let myTimeStamp=Date.now()
 let newDate=new Date()
 console.log(newDate.getMonth());
 console.log(newDate.getDate());
+console.log(newDate.getHours());
 
 newDate.toLocaleDateString('default',{
     weekday:"long"
